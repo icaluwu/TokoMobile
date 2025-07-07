@@ -120,7 +120,7 @@ class _AdminOrdersScreenState extends State<AdminOrdersScreen> {
         title: Text('Kelola Pesanan'),
         bottom: PreferredSize(
           preferredSize: Size.fromHeight(50),
-          child: Container(
+          child: SizedBox(
             height: 50,
             child: ListView(
               scrollDirection: Axis.horizontal,
@@ -302,7 +302,7 @@ class _AdminOrdersScreenState extends State<AdminOrdersScreen> {
                                 ],
                               ),
                             );
-                          }).toList(),
+                          }),
                           Divider(height: 20),
                           if (data['shippingAddress'] != null) ...[
                             Text(

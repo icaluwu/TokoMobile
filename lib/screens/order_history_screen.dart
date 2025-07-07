@@ -195,7 +195,7 @@ class OrderHistoryScreen extends StatelessWidget {
                                 ],
                               ),
                             );
-                          }).toList(),
+                          }),
                           Divider(height: 20),
                           if (data['shippingAddress'] != null) ...[
                             Text(

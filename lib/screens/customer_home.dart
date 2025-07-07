@@ -415,8 +415,8 @@ class _CustomerHomeState extends State<CustomerHome> {
         onPressed: () {
           setState(() {}); // Manual refresh
         },
-        child: Icon(Icons.refresh),
         tooltip: 'Refresh',
+        child: Icon(Icons.refresh),
       ),
     );
   }

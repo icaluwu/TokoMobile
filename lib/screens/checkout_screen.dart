@@ -169,7 +169,7 @@ class _CheckoutScreenState extends State<CheckoutScreen> {
                                 subtitle: Text('${quantity}x ${formatRupiah(price)}'),
                                 trailing: Text(formatRupiah(price * quantity)),
                               );
-                            }).toList(),
+                            }),
                             Divider(),
                             ListTile(
                               contentPadding: EdgeInsets.zero,

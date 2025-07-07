@@ -184,10 +184,10 @@ class _DebugScreenState extends State<DebugScreen> {
                 ),
                 ElevatedButton(
                   onPressed: _isLoading ? null : _testCartFunctionality,
-                  child: Text('Test Cart'),
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.green,
                   ),
+                  child: Text('Test Cart'),
                 ),
                 ElevatedButton(
                   onPressed: () {
@@ -195,10 +195,10 @@ class _DebugScreenState extends State<DebugScreen> {
                       _debugInfo = '';
                     });
                   },
-                  child: Text('Clear'),
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.red,
                   ),
+                  child: Text('Clear'),
                 ),
               ],
             ),
