@@ -16,7 +16,7 @@ jobs:
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.8.1'  # Ganti sesuai versi
+          flutter-version: '3.22.1'  # Ganti sesuai versi
 
       - name: Enable Flutter Web
         run: flutter config --enable-web
