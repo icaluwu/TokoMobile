@@ -8,6 +8,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # ✅ Izinkan push ke repo
 
     steps:
       - name: Checkout Repository
